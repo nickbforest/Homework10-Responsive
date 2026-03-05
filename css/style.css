@@ -100,9 +100,6 @@
   font-size: 14px;
   line-height: 120%;
   letter-spacing: 0;
-}
-
-.watch-demo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,6 +107,7 @@
 }
 
 .hero-buttons {
+  /* width: 100%; */
   display: flex;
   gap: 16px;
 }

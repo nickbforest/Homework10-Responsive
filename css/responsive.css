@@ -39,4 +39,17 @@
   .header-buttons {
     display: none;
   }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .get-started,
+  .watch-demo {
+    width: 100%;
+  }
 }
