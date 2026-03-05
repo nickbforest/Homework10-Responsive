@@ -1,0 +1,149 @@
+/* Header */
+
+.header-wrapper {
+  max-width: 1184px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.menu {
+  display: none;
+}
+
+.nav-lists {
+  width: 428px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #222831;
+}
+
+.nav-lists a {
+  opacity: 0.5;
+}
+
+.nav-lists li:first-child a {
+  opacity: 1;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #222831;
+}
+
+.log-in {
+  width: 105px;
+  height: 49px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #222831;
+}
+
+.sign-up {
+  width: 115px;
+  height: 49px;
+  border-radius: 100px;
+  background-color: #5d50c6;
+  border: none;
+  color: #eeeeee;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+/* Hero */
+
+.hero-section {
+  max-width: 1184px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.get-started {
+  width: 181px;
+  height: 56px;
+  background-color: #5d50c6;
+  color: #eeeeee;
+  border-radius: 100px;
+  border: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.watch-demo {
+  width: 181px;
+  height: 56px;
+  background-color: #ffffff;
+  color: #222831;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+.watch-demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-heading {
+  font-weight: 400;
+  font-size: 69px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.highlight {
+  color: #f85e9f;
+}
+
+.hero-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-left {
+  width: 412px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.hero-image-container {
+  width: 772px;
+}
+.hero-image {
+  width: 100%;
+}
