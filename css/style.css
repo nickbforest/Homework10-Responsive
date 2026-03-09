@@ -288,6 +288,9 @@
 .slide-heading {
   width: 200px;
 }
+.slider-image {
+  width: 100%;
+}
 
 /* Travel Section */
 
@@ -298,12 +301,12 @@
   justify-content: space-between;
 }
 
-.right-block {
-  max-width: 441px;
-}
-
 .img-travel-section {
   width: 100%;
+}
+
+.right-block-text {
+  width: 441px;
 }
 
 .travel-label {
