@@ -116,4 +116,22 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  .carousel-arrows {
+    width: 100%;
+  }
+
+  .arrow1-svg,
+  .arrow2-svg {
+    width: 64px;
+    height: 64px;
+  }
+
+  .carousel-heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #191825;
+  }
 }
