@@ -288,3 +288,85 @@
 .slide-heading {
   width: 200px;
 }
+
+/* Travel Section */
+
+.travel-section {
+  max-width: 1312px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-block {
+  max-width: 441px;
+}
+
+.img-travel-section {
+  width: 100%;
+}
+
+.travel-label {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 120%;
+  letter-spacing: 20%;
+  font-style: uppercase;
+  color: #f85e9f;
+}
+
+.travel-heading {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 120%;
+  letter-spacing: 0;
+  margin: 16px 0 32px 0;
+}
+
+.travel-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0;
+  color: rgba(25, 24, 37, 0.5);
+}
+
+.travel-highlight-1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #ff5722;
+}
+
+.travel-highlight-2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0;
+  color: #191825;
+}
+
+.travel-highlight-card {
+  width: 204px;
+  background-color: #ffffff;
+  border: 1px solid rgba(25, 24, 37, 0.1);
+  border-radius: 32px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+.travel-highligts-row1,
+.travel-highligts-row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlight-rows {
+  margin-top: 64px;
+}
